@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad Animation</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a href="index.html">Position</a>
+            <a href="index-1.html">Display</a>
+            <a id="activo" href="index-2.html">Animation</a>
+            <a href="index-3.html">CSS3</a>
+            <a href="index-4.html">Referencias A.</a>
+            <a href="index-5.html">Carrera</a>a
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Propiedad Animation.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <ol>
+                        <li>Crear animación.</li>
+                        <li>Vincular animación.</li>
+                        <li>Animationtiming.</li>
+                        <li>Animation-direction.</li>
+                        <li>Animation-delay.</li>
+                        <li>Animation play or pause.</li>
+                        <li>Animation.</li>
+                        <li>Animation-fill-mode.</li>
+                    </ol>
+
+                    <p>Propiedades mas importantes:</p>
+                    <ul>
+                        <li><b>animation-duration:</b> 0s; <i>//define el tiempo de una animación.</i></li>
+                        <li><b>animation-iteration-count:</b> infinite; <i>//Define la cantidad de veses que se repite una animación.</i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Crear animación:</b> <b>@keyframes</b> <i>nombre</i> { <b>form</b>{fotograma inicial} <b>to</b>{fotograma final}}.</p>
+                    <p><b>Vincular animación:</b> En el lugar que se quiera poner, por ejemplo:  div{<b>animation-name:</b> nombre; animation-duration}. //puede ser en culaquier etiqueta.</p>
+                    <p><b>Animation-timing:</b></p>
+                    <ul>
+                        <li><b>ease:</b> Velocidad constante.</li>
+                        <li><b>linear:</b> Velocidad constante.</li>
+                        <li><b>ease-in:</b> Acelera.</li>
+                        <li><b>ease-out:</b> Desacelera.</li>
+                        <li><b>ease-in-out:</b> Inicia y termina desacelerando, pero acelera en medio.</li>
+                        <li><b>cubit (n, n, n, n):</b> Persoanaliza las velocidades..</li>
+                    </ul>
+                    <p><b>Animation-direction:</b></p>
+                    <ul>
+                        <li><b>Normal:</b> </li>
+                        <li><b>Reverse:</b> Se reproduce del lado contrario.</li>
+                        <li><b>Alternate:</b> Va de inicio, fin y regresa. <i>//necesita más de un ciclo</i></li>
+                        <li><b>Alternate-reverse:</b> Hace lo que la etiqueta Alternate, pero al revés. <i>//necesita más de un ciclo</i></li>
+                    </ul>
+                    <p><b>Animation-delay:</b> Agrega un retraso a la animación (un tiempo de espera).</p>
+                    <p><b>Animation play o pause:</b> COn ayuda de un botón, ponerle pausa a una animación (usa JS).</p>
+                    <p><b>Animation:</b></p>
+                    <p><b>Animation-fill-mode:</b></p>
+                    <ul>
+                        <li><b>None:</b> No se aplican estilos de la animación.</li>
+                        <li><b>Forwards:</b> Mantiene el estilo del último fotograma de la animación una vez termine.</li>
+                        <li><b>Backwards:</b> Aplica el estilo del primer fotograma de la animación antes de que comience la animación.</li>
+                        <li><b>Both:</b> Aplica el estilo del primer fotograma al inicio y el del último fotograma al final de la animación.</li>
+                    </ul>
+
+                    
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/animacion.png" alt="Imagen de animation">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Para esta propiedad se usa <b>animation-duration</b> para definir el tiempo de una animación y
+                        <b>animation-iteration-count</b> para establecer cuántas veces se repite. Para <b>crear animaciones</b>, se utiliza
+                        <b>@keyframes</b> seguido del <b>nombre</b> y los fotogramas. Las propiedades de <b>animation-timing</b> controlan
+                        la velocidad, como <b>ease</b> y <b>linear</b>, mientras que <b>animation-direction</b> define la dirección de la
+                        animación.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>

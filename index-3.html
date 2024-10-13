@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades CSS3</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a href="index.html">Position</a>
+            <a href="index-1.html">Display</a>
+            <a href="index-2.html">Animation</a>
+            <a id="activo" href="index-3.html">CSS3</a>
+            <a href="index-4.html">Referencias A.</a>
+            <a href="index-5.html">Carrera</a>a
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Propiedades CSS3.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <ol>
+                        <li><b>Porque CSS3.</b></li>
+                        <li><b>Border-radius.</b></li>
+                        <li><b>Box-shadow.</b></li>
+                        <li><b>Text-shadow.</b></li>
+                        <li><b>Linear-gradient.</b></li>
+                        <li><b>Radial-gradient.</b></li>
+                        <li><b>Colores.</b></li>
+                        <li><b>Outline.</b></li>
+                        <li><b>Transform.</b></li>
+                        <li><b>Border-image.</b></li>
+                    </ol>
+                    <p><b>Prefijos de vendedor:</b> Son para poder visualizar algunas propiedades en ciertos navegadores que aún lo
+                        necesitan; <b>-o-</b>, <b> -mez-</b>, <b> -wekit-</b>.</p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Porque CSS3:</b> Fue un inetnto para reducir el uso de JS para el estilo.</p>
+                    
+                    <p><b>Border-radius:</b> Genera espinas redondeadas para la caja de elementos.</p>
+
+                    <p><b>Box-shadow:</b> Genera una sombra en la caja de elementos, siendo su sintaxis algo así: <b>border-radius: DVpx DHpx difuminación Color</b>. También puede usar; <b>inset</b>(dibuja la sombra por dentro),  <b>outset</b> (dibuja la sombra por
+                    fuera).</p>
+
+                    <p><b>Text-shadow:</b> Genera sombra, pero se usa generalmente en textos grandes, también se puede agregar la propiedad <i>letter-spacing</i>.
+                    Usa los mismos valores de <i>box-shadow</i>, menos inset.</p>
+
+                    <p>Agrega y guarda tipografías diferentes de la siguiente manera: <b>@fontface{aqui se pone el nombre de la tipografía, y su ubicaón en el proyecto}</b>.</p>
+
+                    <p><b>Linear-gradient:</b> Hace un degradado en línea (se aplica en backgraund-image). <b>backgraund-image: linear-gradient(color1, color2)</b>.</p>
+                    <p><b>Radial-gradient:</b> Hace un degradado en forma circular.</p>
+
+                    <p><b>Colores:</b></p>
+                    <ul>
+                        <li><b>RGBA:</b> Se agrega el valor alpha para poder manipular la opacidad de un color.</li>
+                        <li><b>RGBA:</b> Se agrega para poder manipular la saturación de un color.</li>
+                    </ul>
+
+                    <p><b>Outline:</b> Genera un borde externo a la caja del elemento. Siendo su sintaxis: <b>outline: px</b></p>
+
+                    <p><b>Transform:</b> Modifica la forma de un elemento, con las siguientes funciones:</p>
+                    <ul>
+                        <li><b>scale(5)</b> //Tamaño.</li>
+                        <li><b>rotate(deg)</b> //Rotación.</li>
+                        <li><b>skew(deg)</b> //Inclinación.</li>
+                        <li><b>translate(px)</b> //Movimiento.</li>
+                    </ul>
+
+
+                    <p><b>Border-image:</b> Genera un borde al rededor de una imagen.</p>
+                    
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/transform.png" alt="Imagen de propiedades">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Las propiedades clave de <b>CSS3</b> tienen a <b>border-radius</b> para bordes redondeados, <b>box-shadow</b> y
+                        <b>text-shadow</b> para sombras en cajas y textos, y <b>linear-gradient</b> y <b>radial-gradient</b> para
+                        degradados. Los <b>prefijos de vendedor</b> como <b>-o-</b> y <b>-webkit-</b> permiten compatibilidad con ciertos
+                        navegadores. <b>Transform</b> permite modificar elementos, mientras que <b>border-image</b> genera bordes alrededor
+                        de imágenes.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>

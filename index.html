@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad Position.</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a id="activo" href="index.html">Position</a>
+            <a href="index-1.html">Display</a>
+            <a href="index-2.html">Animation</a>
+            <a href="index-3.html">CSS3</a>
+            <a href="index-4.html">Referencias A.</a>
+            <a href="index-5.html">Carrera</a>a
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Propiedad Position.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <p>Usa los valores:</p>
+                    <ol>
+                        <li><b>Static</b> (valor por defecto).</li>
+                        <li><b>Relative.</b></li>
+                        <li><b>Absolute.</b></li>
+                        <li><b>Fixed.</b></li>
+                        <li><b>Sticky.</b></li>
+                    </ol>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Static:</b> No se ve afectado por los valores left, bottom, right y top. Este sigue el flujo normal de la página.</p>
+                    <p><b>Relative:</b> Sigue el flujo de la página, pero este sí se ve afectado por los valores; left, bottom, right y top. Sí, se aplica a una
+                    caja, las demás no se mueven.</p>
+
+                    <p><b>Absolute:</b> Depende de la posición que tenga el contenedor, en donde estén los demás elementos y si son estáticos o no. No tomará en
+                    cuenta al contenedor si este es estático.</p>
+
+                    <p><b>Fixed:</b> Se acomoda con relación a la ventana gráfica (navegador), usa los valores; left, bottom, right y top. Para que este
+                    funcione correctamente, la posición del resto de elementos tiene que ser diferente a esta.</p>
+
+                    <p><b>Sticky:</b> Va en función del desplazamiento del usuario. Varía entre relativo y fijo, dependiendo del desplazamiento.</p>
+                    <ul>
+                        <li><b>Relativa:</b> Acomoda el elemento en la posición original de la ventana.</li>
+                        <li><b>Fija:</b> Deja pegado el elemento en 0% de altura.</li>
+                    </ul>
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/positionCSS.jpg" alt="Imagen de position">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>CSS sa los valores: <b>Static</b> (valor por defecto), <b>Relative</b>, <b>Absolute</b>, <b>Fixed</b>, y <b>Sticky</b>.
+                        <b>Static</b> siguiendo el flujo normal de la página, <b>Relative</b> se ve afectado por los valores <b>left</b>,
+                        <b>bottom</b>, <b>right</b> y <b>top</b>, <b>Absolute</b> depende del contenedor, <b>Fixed</b> se acomoda a la
+                        ventana gráfica, y <b>Sticky</b> varía entre relativo y fijo según el desplazamiento del usuario.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referencias avanzadas</title>
+
+    <!--  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="imgs/pagina/Logo.png" alt="Imagen del logo">
+        </header>
+        <nav>
+            <a href="index.html">Position</a>
+            <a href="index-1.html">Display</a>
+            <a href="index-2.html">Animation</a>
+            <a href="index-3.html">CSS3</a>
+            <a id="activo" href="index-4.html">Referencias A.</a>
+            <a href="index-5.html">Carrera</a>a
+        </nav>
+        <section>
+            
+            <div class="titulo">
+                <h1>Referencias avanzadas.</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales:</h2>
+                <div class="texto1">
+                    <ol>
+                        <li>Atributos.</li>
+                        <li>Pseudo-clases.</li>
+                        <li>Seletores de atributos.</li>
+                        <li>Selectores de relaciones.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes de clase:</h2>
+                <div class="texto2">
+                    <p><b>Atributos:</b> </p>
+                    <ul>
+                        <li><b>ID</b> <i>//Identificador único</i> <b>#id{}</b></li>
+                        <li><b>.clase</b> <i>//Asigna diseños en más de un elemento</i> <b>.clase{}</b></li>
+                        <li><b>&#60;elemento&#62;</b> <i>//Todos los elemeptos de un tipo</i> <b>footer{}</b></li>
+                    </ul>
+                    <p><b>Pseudo-clases:</b> </p>
+                    <ul>
+                        <li>:hover <i>//agrega un efecto al pasar sobre el elemento.</i></li>
+                        <li>:first-child <i>//Solo el primer hijo.</i></li>
+                        <li>:nth-child() <i>//Encontrar un hijo específico.</i></li>
+                        <li>:nth-child(odd o even) <i>//Alterna entre elementos pares o impares.</i></li>
+                        <li>:last-child <i>//Solo al ultimo hijo.</i></li>
+                        <li>:not(selector) <i>//Excepciones de elementos.</i></li>
+                        <li>:only-child <i>//A un solo elemento que sea diferente.</i></li>
+                    </ul>
+                    <p><b>Selcetores de atributos:</b> Buscan por medio de lo que tengan en la etiqueta.</p>
+                    <ul>
+                        <li>atributo<b>=</b><q>nombre</q> <i>//Lo que tenga exactamente escrito.</i></li>
+                        <li>atributo<b>^=</b><q>nombre</q> <i>//Inicio similar.</i></li>
+                        <li>title<b>$=</b><q>par</q> <i>//Valor final similar.</i></li>
+                        <li>atributo<b>*=</b><q>ejem</q> <i>//Busca esa cadena específica sin importar el orden.</i></li>
+                    </ul>
+                    <p><b>Selectores de relaciones:</b> </p>
+                    <ul>
+                        <li>Directos <b>&#62;</b> <i>//Hijos inmediatos de una etiqueta</i></li>
+                        <li>Adyacentes <b>+</b> <i>//Selecciona al hermano inmediato de otra etiqueta (la que sigue)</i></li>
+                        <li>Generales <b>~</b> <i>//Hermanos de un elemento anterior</i></li>
+                    </ul>
+                    
+                </div>
+                <div class="imagen">
+                    <img src="imgs/contenido/propiedades.png" alt="Imagen de referencias avanzadas">
+                </div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen:</h2>
+                <div class="texto3">
+                    <p>Se explicaron los conceptos de atributos de las propiedades avanzadas, que incluyen <b>ID</b> como un identificador
+                        único y <b>clase</b> para aplicar estilos a múltiples elementos; <b>Pseudo-clases</b>, que permiten efectos al
+                        interactuar con los elementos. También <b>:hover</b> y <b>:first-child</b>. Otros, <b>Selectores de atributos</b>, que
+                        identifican elementos según sus atributos, como <b>atributo=nombre</b>; y <b>Selectores de relaciones</b>, que
+                        definen la relación entre elementos, usando <b>&gt;</b> para hijos inmediatos, <b>+</b> para hermanos adyacentes, y
+                        <b>~</b> para hermanos generales.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="imgs/pagina/Logo.png" alt="Logo">
+        </footer>
+    </main>
+</body>
+</html>
